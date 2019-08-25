@@ -3,7 +3,7 @@ body{
 margin: 0;
 text-align: center;
 font-family: 'Merriweather', serif;
-  }
+background-color: #f6f6f6;}
 h1{font-family: 'Sacramento', cursive;
 font-size: 90px;
 color: #66BFBF;}
@@ -14,8 +14,12 @@ font-weight: normal;}
 h3{font-family: 'Montserrat', sans-serif;
 color: #11999E;}
 a {color: #11999E;}
-p {color:#66BFBF;
-font-size:20px;}
+hr {  border-style: none;
+      border-top-style: dotted;
+      border-color: gray;
+      border-width: 5px;
+      width: 5%;}
+
 
 /***************Class SELECTOR************/
 .Top-container {background-color: #c6f1d6;
@@ -23,10 +27,16 @@ font-size:20px;}
   padding-top: 100px;}
 
 
-.middle-container{background-color: #f6f6f6;}
+.middle-container{background-color: #f6f6f6;
+margin-bottom: 15px;}
 
-
-  .bottom-container{background-color: #f6f6f6;}
+.bottom-container {background-color: #f6f6f6;
+margin-top: 15px;}
+  .contact-me{background-color: #66BFBF;
+  line-height: 2;
+padding: 15px;
+color: #11999E;
+margin-top: 10px;}
 
     .top-cloud {position: absolute;
     right: 300px;
@@ -35,7 +45,21 @@ font-size:20px;}
 .bottom-cloud {position:absolute;
 left: 300px;}
 
-
+.coding {float: left;
+width: 25%;
+margin-right: 20px;}
+.call-center {float: right;
+width: 25%;}
 .sami-image {width: 150px;}
-.skills-row-pic {width:100px;}
-.phone {width:100px;}
+.skill-row {width:50%;}
+.phone { width: 100px;}
+.skill-row {margin: 100px auto 100px auto;
+text-align: left;
+line-height: 2;}
+.sami {color: #EAF6F6}
+.btn {  font-family: "Proxima Nova",sans-serif;
+    font-weight: 600;
+    white-space: nowrap;
+      color: #fff;
+    box-sizing: border-box;
+  background-color: #66BFBF;}
